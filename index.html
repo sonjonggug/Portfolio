@@ -189,6 +189,19 @@ vb);O(IMG_SEARCH_ATTRIBUTION_MAP,Pd);O(IMG_GEN_REPLACE_MAP,ea.A);X();kf();h.A=0}
 
 </script>
 
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+
+<script>
+    lightbox.option({
+      'resizeDuration': 200, // 이미지 크기 조절 애니메이션 시간
+      'wrapAround': true, // 마지막 이미지에서 처음으로 돌아가기
+      'fitImagesInViewport': true, // 뷰포트에 맞게 이미지 크기 조절 (기본값 true)
+      'maxWidth': 800, // 최대 너비 설정 (주석 처리됨: 필요시 활성화)
+      'maxHeight': 600 // 최대 높이 설정 (주석 처리됨: 필요시 활성화)
+    });
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>손종국 | Backend Engineer Portfolio</title>
@@ -367,11 +380,10 @@ vb);O(IMG_SEARCH_ATTRIBUTION_MAP,Pd);O(IMG_GEN_REPLACE_MAP,ea.A);X();kf();h.A=0}
                 </div>
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-4">
-                        <a href="#home" class="hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</a>
-                        <a href="#about" class="hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium transition-colors">About</a>
+                        <a href="#home" class="hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</a>                        
                         <a href="#skills" class="hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium transition-colors">Skills</a>
                         <a href="#experience" class="hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium transition-colors">Experience</a>
-                        <a href="#portfolio" class="hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium transition-colors">Portfolio</a>
+                        <a href="#portfolio" class="hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium transition-colors">Screen</a>
                     </div>
                 </div>
             </div>
@@ -395,9 +407,9 @@ vb);O(IMG_SEARCH_ATTRIBUTION_MAP,Pd);O(IMG_GEN_REPLACE_MAP,ea.A);X();kf();h.A=0}
                         <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">성실한 개발자</span>
                     </h1>
                     <p class="text-lg text-slate-400 max-w-2xl animate-fade-up delay-200">
-                        안녕하세요. 백엔드 엔지니어 손종국입니다.<br>
-                        문제를 근본적으로 해결하고 재발을 방지하는 자동화 시스템을 구축합니다.<br>
-                        장애 상황에서도 서비스의 연속성을 보장하는 견고한 아키텍처를 설계합니다.
+                        안녕하세요. 백엔드 개발자 손종국입니다.<br>
+                        문제를 근본적으로 해결하고 재발을 방지하는 시스템을 구축하고자 합니다.<br>
+                        서비스 연속성을 확립하기 위해 견고한 아키텍처를 지향합니다.
                     </p>
                 </div>
                 
@@ -414,7 +426,7 @@ vb);O(IMG_SEARCH_ATTRIBUTION_MAP,Pd);O(IMG_GEN_REPLACE_MAP,ea.A);X();kf();h.A=0}
             <div class="relative animate-fade-up delay-300 hidden lg:block">
                 <div class="relative w-96 h-96 mx-auto">
                     <div class="absolute inset-0 bg-gradient-to-tr from-blue-500 to-cyan-400 rounded-full blur-3xl opacity-20 animate-pulse"></div>
-                    <img style="" src="blob:https://0tlj6z6djc5mmz89ung7p43is5b4z374lfco1x5lwd9fnugdvn-h833788197.scf.usercontent.goog/f42673f9-ec11-4f2f-aea4-f8a6570c5664" go-data-src="/gen?prompt=professional+korean+male+software+engineer+portrait+wearing+glasses+smart+casual+dark+studio+lighting&amp;aspect=1:1" alt="손종국" class="relative w-full h-full object-cover rounded-full border-4 border-slate-800 shadow-2xl">
+                    <img style="object-position: 50% 20%;" src="assets/img/portfolio/profile.png" alt="손종국" class="relative w-full h-full object-cover rounded-full border-4 border-slate-800 shadow-2xl">         
                     
                     <!-- Floating Tech Badges -->
                     <div class="absolute -top-4 -right-4 bg-slate-800 p-3 rounded-xl shadow-lg border border-slate-700 flex items-center gap-2 animate-bounce" style="animation-duration: 3s;">
@@ -434,7 +446,7 @@ vb);O(IMG_SEARCH_ATTRIBUTION_MAP,Pd);O(IMG_GEN_REPLACE_MAP,ea.A);X();kf();h.A=0}
     <section id="skills" class="py-20 bg-slate-900/50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 opacity-0 animate-fade-up">
             <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Technical Skills</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Skills</h2>
                 <div class="h-1 w-20 bg-blue-500 mx-auto rounded-full"></div>
             </div>
 
@@ -519,7 +531,7 @@ vb);O(IMG_SEARCH_ATTRIBUTION_MAP,Pd);O(IMG_GEN_REPLACE_MAP,ea.A);X();kf();h.A=0}
     <section id="experience" class="py-20 bg-slate-950 relative">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 opacity-0 animate-fade-up">
             <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Work Experience</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Experience</h2>
                 <div class="h-1 w-20 bg-blue-500 mx-auto rounded-full"></div>
             </div>
 
@@ -683,8 +695,8 @@ vb);O(IMG_SEARCH_ATTRIBUTION_MAP,Pd);O(IMG_GEN_REPLACE_MAP,ea.A);X();kf();h.A=0}
     <section id="portfolio" class="py-24 bg-slate-900">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 opacity-0 animate-fade-up">
             <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Portfolio</h2>
-                <p class="text-slate-400 max-w-2xl mx-auto">주요 프로젝트 및 개인 작업물</p>
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Screen</h2>
+                <p class="text-slate-400 max-w-2xl mx-auto">사이드 프로젝트로 팀원들과 하루한줄 책린지 iOS 앱을 출시 했을때 모습입니다.</p>
                 <div class="h-1 w-20 bg-blue-500 mx-auto rounded-full mt-4"></div>
             </div>
 
@@ -692,106 +704,82 @@ vb);O(IMG_SEARCH_ATTRIBUTION_MAP,Pd);O(IMG_GEN_REPLACE_MAP,ea.A);X();kf();h.A=0}
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 
                 <!-- Item 1: CJ Foodville -->
-                <div class="group relative bg-slate-800 rounded-2xl overflow-hidden border border-slate-700 shadow-lg hover:shadow-blue-500/20 transition-all duration-300 hover:-translate-y-2">
-                    <div class="h-48 overflow-hidden">
-                        <img style="" src="assets/img/portfolio/app_1.png" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    </div>
-                    <div class="p-6">
-                        <div class="flex items-center justify-between mb-3">
-                            <span class="text-xs font-bold text-blue-400 uppercase tracking-wider">Enterprise</span>
-                            <span class="bg-slate-700 text-white text-xs px-2 py-1 rounded">K8s / RAG</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-white mb-2">CJ푸드빌 RAG 챗봇</h3>
-                        <p class="text-slate-400 text-sm line-clamp-3">
-                            Kubernetes HA 구성 및 Azure AI를 활용한 대규모 엔터프라이즈 챗봇 시스템. 장애 대응 및 백업 자동화 구현.
-                        </p>
-                    </div>
-                </div>
+				<div class="group relative bg-slate-800 rounded-2xl overflow-hidden border border-slate-700 shadow-lg hover:shadow-blue-500/20 transition-all duration-300 hover:-translate-y-2">
+					<div class="h-96 overflow-hidden">
+						<img src="assets/img/portfolio/app_1.png" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+					</div>
+
+					<div class="absolute inset-x-0 bottom-0 bg-slate-800 p-0 transform translate-y-full group-hover:translate-y-0 transition-all duration-300 ease-in-out">
+						<a href="assets/img/portfolio/app_1.png" data-lightbox="portfolio-item" class="block text-center text-blue-400 hover:text-blue-200 py-3 rounded-none font-semibold text-sm w-full">
+							자세히 보기
+						</a>
+					</div>
+				</div>
 
                 <!-- Item 2: U2-BIO -->
-                <div class="group relative bg-slate-800 rounded-2xl overflow-hidden border border-slate-700 shadow-lg hover:shadow-blue-500/20 transition-all duration-300 hover:-translate-y-2">
-                    <div class="h-48 overflow-hidden">
-                        <img style="" src="assets/img/portfolio/app_2.png" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    </div>
-                    <div class="p-6">
-                        <div class="flex items-center justify-between mb-3">
-                            <span class="text-xs font-bold text-green-400 uppercase tracking-wider">Healthcare AI</span>
-                            <span class="bg-slate-700 text-white text-xs px-2 py-1 rounded">Prompt Eng</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-white mb-2">건강검진 AI 소견 자동화</h3>
-                        <p class="text-slate-400 text-sm line-clamp-3">
-                            건강검진 데이터를 분석하여 전문의용 및 환자용 소견서를 자동으로 생성하는 생성형 AI 시스템 구축.
-                        </p>
-                    </div>
-                </div>
+				<div class="group relative bg-slate-800 rounded-2xl overflow-hidden border border-slate-700 shadow-lg hover:shadow-blue-500/20 transition-all duration-300 hover:-translate-y-2">
+					<div class="h-96 overflow-hidden">
+						<img src="assets/img/portfolio/app_2.png" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+					</div>
+
+					<div class="absolute inset-x-0 bottom-0 bg-slate-800 p-0 transform translate-y-full group-hover:translate-y-0 transition-all duration-300 ease-in-out">
+						<a href="assets/img/portfolio/app_2.png" data-lightbox="portfolio-item" class="block text-center text-blue-400 hover:text-blue-200 py-3 rounded-none font-semibold text-sm w-full">
+							자세히 보기
+						</a>
+					</div>
+				</div>
 
                 <!-- Item 3: Internal RAG -->
-                <div class="group relative bg-slate-800 rounded-2xl overflow-hidden border border-slate-700 shadow-lg hover:shadow-blue-500/20 transition-all duration-300 hover:-translate-y-2">
-                    <div class="h-48 overflow-hidden">
-                        <img style="" src="assets/img/portfolio/app_3.png" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    </div>
-                    <div class="p-6">
-                        <div class="flex items-center justify-between mb-3">
-                            <span class="text-xs font-bold text-purple-400 uppercase tracking-wider">Internal Tool</span>
-                            <span class="bg-slate-700 text-white text-xs px-2 py-1 rounded">ElasticSearch</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-white mb-2">사내 문서 검색 챗봇</h3>
-                        <p class="text-slate-400 text-sm line-clamp-3">
-                            ElasticSearch와 HyperClova를 연동한 사내 지식 검색 시스템. 다양한 문서 포맷 파싱 및 벡터 검색 지원.
-                        </p>
-                    </div>
-                </div>
+				<div class="group relative bg-slate-800 rounded-2xl overflow-hidden border border-slate-700 shadow-lg hover:shadow-blue-500/20 transition-all duration-300 hover:-translate-y-2">
+					<div class="h-96 overflow-hidden">
+						<img src="assets/img/portfolio/app_3.png" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+					</div>
+
+					<div class="absolute inset-x-0 bottom-0 bg-slate-800 p-0 transform translate-y-full group-hover:translate-y-0 transition-all duration-300 ease-in-out">
+						<a href="assets/img/portfolio/app_3.png" data-lightbox="portfolio-item" class="block text-center text-blue-400 hover:text-blue-200 py-3 rounded-none font-semibold text-sm w-full">
+							자세히 보기
+						</a>
+					</div>
+				</div>
 
                 <!-- Item 4: TCP/IP Server -->
-                <div class="group relative bg-slate-800 rounded-2xl overflow-hidden border border-slate-700 shadow-lg hover:shadow-blue-500/20 transition-all duration-300 hover:-translate-y-2">
-                    <div class="h-48 overflow-hidden">
-                        <img style="" src="assets/img/portfolio/app_4.png" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    </div>
-                    <div class="p-6">
-                        <div class="flex items-center justify-between mb-3">
-                            <span class="text-xs font-bold text-orange-400 uppercase tracking-wider">Infrastructure</span>
-                            <span class="bg-slate-700 text-white text-xs px-2 py-1 rounded">Netty / Java</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-white mb-2">TCP/IP 수집 서버</h3>
-                        <p class="text-slate-400 text-sm line-clamp-3">
-                            대용량 트래픽 처리를 위한 비동기 이벤트 기반 소켓 서버. 암호화 패킷 처리 및 장치 라이프사이클 관리.
-                        </p>
-                    </div>
-                </div>
+				<div class="group relative bg-slate-800 rounded-2xl overflow-hidden border border-slate-700 shadow-lg hover:shadow-blue-500/20 transition-all duration-300 hover:-translate-y-2">
+					<div class="h-96 overflow-hidden">
+						<img src="assets/img/portfolio/app_4.png" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+					</div>
+
+					<div class="absolute inset-x-0 bottom-0 bg-slate-800 p-0 transform translate-y-full group-hover:translate-y-0 transition-all duration-300 ease-in-out">
+						<a href="assets/img/portfolio/app_4.png" data-lightbox="portfolio-item" class="block text-center text-blue-400 hover:text-blue-200 py-3 rounded-none font-semibold text-sm w-full">
+							자세히 보기
+						</a>
+					</div>
+				</div>
 
                 <!-- Item 5: Monitoring System -->
-                <div class="group relative bg-slate-800 rounded-2xl overflow-hidden border border-slate-700 shadow-lg hover:shadow-blue-500/20 transition-all duration-300 hover:-translate-y-2">
-                    <div class="h-48 overflow-hidden">
-                        <img style="" src="assets/img/portfolio/app_5.png" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    </div>
-                    <div class="p-6">
-                        <div class="flex items-center justify-between mb-3">
-                            <span class="text-xs font-bold text-cyan-400 uppercase tracking-wider">Web App</span>
-                            <span class="bg-slate-700 text-white text-xs px-2 py-1 rounded">Spring / Docker</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-white mb-2">클라우드 관제 시스템</h3>
-                        <p class="text-slate-400 text-sm line-clamp-3">
-                            실시간 프로세스 상태 체크 및 데이터 시각화 대시보드. Docker 기반의 사내 인프라 및 CI/CD 구축.
-                        </p>
-                    </div>
-                </div>
+				<div class="group relative bg-slate-800 rounded-2xl overflow-hidden border border-slate-700 shadow-lg hover:shadow-blue-500/20 transition-all duration-300 hover:-translate-y-2">
+					<div class="h-96 overflow-hidden">
+						<img src="assets/img/portfolio/app_5.png" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+					</div>
+
+					<div class="absolute inset-x-0 bottom-0 bg-slate-800 p-0 transform translate-y-full group-hover:translate-y-0 transition-all duration-300 ease-in-out">
+						<a href="assets/img/portfolio/app_5.png" data-lightbox="portfolio-item" class="block text-center text-blue-400 hover:text-blue-200 py-3 rounded-none font-semibold text-sm w-full">
+							자세히 보기
+						</a>
+					</div>
+				</div>
 
                 <!-- Item 6: Personal Projects -->
-                <div class="group relative bg-slate-800 rounded-2xl overflow-hidden border border-slate-700 shadow-lg hover:shadow-blue-500/20 transition-all duration-300 hover:-translate-y-2">
-                    <div class="h-48 overflow-hidden">
-                        <img style="" src="assets/img/portfolio/app_6.png" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    </div>
-                    <div class="p-6">
-                        <div class="flex items-center justify-between mb-3">
-                            <span class="text-xs font-bold text-pink-400 uppercase tracking-wider">Personal</span>
-                            <span class="bg-slate-700 text-white text-xs px-2 py-1 rounded">iOS / Crypto</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-white mb-2">개인 프로젝트</h3>
-                        <p class="text-slate-400 text-sm line-clamp-3">
-                            하루한줄(iOS) 백엔드 및 코인 자동매매 프로그램 개발. JWT 보안, AWS EC2 배포, 텔레그램 알림 연동.
-                        </p>
-                    </div>
-                </div>
+				<div class="group relative bg-slate-800 rounded-2xl overflow-hidden border border-slate-700 shadow-lg hover:shadow-blue-500/20 transition-all duration-300 hover:-translate-y-2">
+					<div class="h-96 overflow-hidden">
+						<img src="assets/img/portfolio/app_6.png" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+					</div>
+
+					<div class="absolute inset-x-0 bottom-0 bg-slate-800 p-0 transform translate-y-full group-hover:translate-y-0 transition-all duration-300 ease-in-out">
+						<a href="assets/img/portfolio/app_6.png" data-lightbox="portfolio-item" class="block text-center text-blue-400 hover:text-blue-200 py-3 rounded-none font-semibold text-sm w-full">
+							자세히 보기
+						</a>
+					</div>
+				</div>
 
             </div>
         </div>
@@ -801,8 +789,7 @@ vb);O(IMG_SEARCH_ATTRIBUTION_MAP,Pd);O(IMG_GEN_REPLACE_MAP,ea.A);X();kf();h.A=0}
     <footer id="contact" class="bg-slate-950 pt-20 pb-10 border-t border-slate-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
-                <div>
-                    <h3 class="text-3xl font-bold text-white mb-6">Let's Connect</h3>
+                <div>                    
                     <p class="text-slate-400 mb-6">
                         안정적이고 효율적인 시스템 구축에 관심이 있습니다.<br>
                         새로운 기술적 도전을 함께할 기회를 기다립니다.
@@ -819,17 +806,6 @@ vb);O(IMG_SEARCH_ATTRIBUTION_MAP,Pd);O(IMG_GEN_REPLACE_MAP,ea.A);X();kf();h.A=0}
                     </div>
                 </div>
                 
-                <div class="flex flex-col justify-center items-start md:items-end">
-                    <a href="https://sonjonggug.github.io/Portfolio/" target="_blank" class="text-2xl font-bold text-white hover:text-blue-500 transition-colors mb-2">
-                        sonjonggug.github.io
-                    </a>
-                    <p class="text-slate-500">Check out my code on GitHub</p>
-                    <div class="flex gap-4 mt-4">
-                        <a href="https://github.com/sonjonggug" target="_blank" class="w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors group">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" class="w-6 h-6 invert group-hover:invert-0" alt="GitHub">
-                        </a>
-                    </div>
-                </div>
             </div>
             <div class="text-center text-slate-600 text-sm pt-8 border-t border-slate-900">
                 © 2024 Son Jongguk. All rights reserved.
