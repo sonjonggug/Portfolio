@@ -1,0 +1,7 @@
+{
+  "name": "jonggug-portfolio",
+  "private": true,
+  "type": "module",
+  "scripts": {"dev": "node scripts/serve.mjs", "check": "node scripts/check.mjs"},
+  "engines": {"node": ">=18"}
+}
